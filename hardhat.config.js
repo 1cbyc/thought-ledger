@@ -2,8 +2,8 @@ require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
-const GOERLI_URL = process.env.GOERLI_URL;
-const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const GOERLI_URL = process.env.GOERLI_URL || "";
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
 
 module.exports = {
   solidity: {
@@ -26,7 +26,7 @@ module.exports = {
     }
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY
+    apiKey: process.env.ETHERSCAN_API_KEY || ""
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,

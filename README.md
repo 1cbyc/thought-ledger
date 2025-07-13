@@ -1,7 +1,10 @@
 # Thought Ledger
 
-(i asked chatgpt to write this for me)
 A decentralized social platform for sharing thoughts and quotes on the Ethereum blockchain. Every thought is stored immutably, ensuring true ownership and censorship resistance.
+
+---
+**Author:** Isaac Emmanuel
+---
 
 ## Features
 - Post thoughts/quotes to the blockchain (Ethereum Goerli testnet)
@@ -68,3 +71,7 @@ A decentralized social platform for sharing thoughts and quotes on the Ethereum 
 
 ## License
 MIT
+
+---
+**Project by Isaac Emmanuel**
+---

@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 /**
  * @title ThoughtLedger
  * @dev A decentralized platform for sharing thoughts on the blockchain
- * @author Your Name
+ * @author Isaac Emmanuel
  */
 contract ThoughtLedger is ReentrancyGuard, Ownable {
     

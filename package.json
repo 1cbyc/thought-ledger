@@ -1,5 +1,5 @@
 {
-  "name": "brainweave",
+  "name": "thought-ledger",
   "version": "1.0.0",
   "description": "A decentralized social platform for sharing thoughts on the blockchain",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "decentralized",
     "social-media"
   ],
-  "author": "Your Name",
+  "author": "Isaac Emmanuel",
   "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
